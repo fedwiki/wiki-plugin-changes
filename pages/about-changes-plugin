@@ -4,7 +4,7 @@
     {
       "type": "paragraph",
       "id": "9d8f434890a6538a",
-      "text": "Changes reports pages you have in browser local storage and offers several ways to manage them."
+      "text": "Changes reports pages you have in browser local storage and offers several ways to manage them. [https://github.com/fedwiki/wiki-plugin-changes github]"
     },
     {
       "type": "paragraph",
@@ -199,6 +199,16 @@
         "text": "See [[About Activity Plugin]] to review changes stored on servers in your neighborhood."
       },
       "date": 1354083921523
+    },
+    {
+      "type": "edit",
+      "id": "9d8f434890a6538a",
+      "item": {
+        "type": "paragraph",
+        "id": "9d8f434890a6538a",
+        "text": "Changes reports pages you have in browser local storage and offers several ways to manage them. [https://github.com/fedwiki/wiki-plugin-changes github]"
+      },
+      "date": 1401599539321
     }
   ]
 }
