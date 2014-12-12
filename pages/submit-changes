@@ -7,14 +7,14 @@
       "text": "Here we list changes you have made and have stored in your browser. You can review changed pages, discard some, and submit the remainder as a contribution."
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "0ab346ac2634bae9",
-      "text": "<i>Notice: This capability is only available for sites that choose to accept changes."
+      "text": "<i>Notice: This capability is only available for sites that choose to accept changes.</i>"
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "b52782aafcdb17ab",
-      "text": "<h3>Describe Your Contribution"
+      "text": "<h3>Describe Your Contribution</h3>"
     },
     {
       "type": "paragraph",
@@ -26,9 +26,9 @@
       "id": "4d971b96c8d5dce6"
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "093ecda699fda59c",
-      "text": "<h3>Submit Your Changes"
+      "text": "<h3>Submit Your Changes</h3>"
     },
     {
       "type": "changes",
@@ -36,9 +36,9 @@
       "id": "a672a633bbe6414b"
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "81a26f11a4d0c6cd",
-      "text": "<h3>Submission History"
+      "text": "<h3>Submission History</h3>"
     },
     {
       "type": "paragraph",
@@ -298,6 +298,87 @@
         "text": "<h3>Describe Your Contribution"
       },
       "date": 1344464633990
+    },
+    {
+      "type": "edit",
+      "id": "0ab346ac2634bae9",
+      "item": {
+        "type": "html",
+        "id": "0ab346ac2634bae9",
+        "text": "<i>Notice: This capability is only available for sites that choose to accept changes."
+      },
+      "date": 1418314093560
+    },
+    {
+      "type": "edit",
+      "id": "0ab346ac2634bae9",
+      "item": {
+        "type": "html",
+        "id": "0ab346ac2634bae9",
+        "text": "<i>Notice: This capability is only available for sites that choose to accept changes.</i>"
+      },
+      "date": 1418314099991
+    },
+    {
+      "type": "edit",
+      "id": "b52782aafcdb17ab",
+      "item": {
+        "type": "html",
+        "id": "b52782aafcdb17ab",
+        "text": "<h3>Describe Your Contribution"
+      },
+      "date": 1418314104983
+    },
+    {
+      "type": "edit",
+      "id": "b52782aafcdb17ab",
+      "item": {
+        "type": "html",
+        "id": "b52782aafcdb17ab",
+        "text": "<h3>Describe Your Contribution</h3>"
+      },
+      "date": 1418314110886
+    },
+    {
+      "type": "edit",
+      "id": "093ecda699fda59c",
+      "item": {
+        "type": "html",
+        "id": "093ecda699fda59c",
+        "text": "<h3>Submit Your Changes"
+      },
+      "date": 1418314116554
+    },
+    {
+      "type": "edit",
+      "id": "81a26f11a4d0c6cd",
+      "item": {
+        "type": "html",
+        "id": "81a26f11a4d0c6cd",
+        "text": "<h3>Submission History"
+      },
+      "date": 1418314119416
+    },
+    {
+      "type": "edit",
+      "id": "093ecda699fda59c",
+      "item": {
+        "type": "html",
+        "id": "093ecda699fda59c",
+        "text": "<h3>Submit Your Changes</h3>"
+      },
+      "date": 1418314125968
+    },
+    {
+      "type": "edit",
+      "id": "81a26f11a4d0c6cd",
+      "item": {
+        "type": "html",
+        "id": "81a26f11a4d0c6cd",
+        "text": "<h3>Submission History</h3>"
+      },
+      "date": 1418314132623
     }
-  ]
+  ],
+  "plugin": "changes"
 }

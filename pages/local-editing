@@ -17,9 +17,9 @@
       "text": "See Also [[Recent Submissions]]"
     },
     {
-      "text": "<h3>Your Changes",
+      "text": "<h3>Your Changes</h3>",
       "id": "20d07f5b9d9a59c7",
-      "type": "paragraph"
+      "type": "html"
     },
     {
       "text": "Here we list changes you have made and have stored in your browser. You can review changed pages and discard those you no longer want.",
@@ -31,9 +31,9 @@
       "type": "changes"
     },
     {
-      "text": "<i>Notice: this is an under developed experimental feature. It takes some ingenuity to even see what it is doing. However, you will know you are seeing a locally stored page when it has a yellow border.",
+      "text": "<i>Notice: this is an under developed experimental feature. It takes some ingenuity to even see what it is doing. However, you will know you are seeing a locally stored page when it has a yellow border.</i>",
       "id": "730888a4d784bc57",
-      "type": "paragraph"
+      "type": "html"
     },
     {
       "type": "paragraph",
@@ -380,6 +380,47 @@
         "text": "See Also [[Recent Submissions]]"
       },
       "date": 1355267978110
+    },
+    {
+      "type": "edit",
+      "id": "20d07f5b9d9a59c7",
+      "item": {
+        "text": "<h3>Your Changes",
+        "id": "20d07f5b9d9a59c7",
+        "type": "html"
+      },
+      "date": 1418314015273
+    },
+    {
+      "type": "edit",
+      "id": "20d07f5b9d9a59c7",
+      "item": {
+        "text": "<h3>Your Changes</h3>",
+        "id": "20d07f5b9d9a59c7",
+        "type": "html"
+      },
+      "date": 1418314022888
+    },
+    {
+      "type": "edit",
+      "id": "730888a4d784bc57",
+      "item": {
+        "text": "<i>Notice: this is an under developed experimental feature. It takes some ingenuity to even see what it is doing. However, you will know you are seeing a locally stored page when it has a yellow border.",
+        "id": "730888a4d784bc57",
+        "type": "html"
+      },
+      "date": 1418314028465
+    },
+    {
+      "type": "edit",
+      "id": "730888a4d784bc57",
+      "item": {
+        "text": "<i>Notice: this is an under developed experimental feature. It takes some ingenuity to even see what it is doing. However, you will know you are seeing a locally stored page when it has a yellow border.</i>",
+        "id": "730888a4d784bc57",
+        "type": "html"
+      },
+      "date": 1418314036200
     }
-  ]
+  ],
+  "plugin": "changes"
 }

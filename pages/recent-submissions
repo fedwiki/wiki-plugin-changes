@@ -7,17 +7,17 @@
       "text": "Here we list changes that have been submitted to this site using the [[Submit Changes]] mechanism. "
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "73f990123175971b",
-      "text": "<i>Notice: This capability is only available for sites that choose to accept changes."
+      "text": "<i>Notice: This capability is only available for sites that choose to accept changes.</i>"
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "a9e3f1906db6feb1",
       "text": "Submissions appear in a separate, made for purpose, site. You can browse the recent changes of this site by clicking on the <b>flag</b> of sites listed below, if any."
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "07f5bde2ec9ac99e",
       "text": "When viewing recent changes of a remote site, you can view the changed page on that site by clicking on the <b>flag</b> of that page. Don't expect the link to find the remote site because it will likely be hidden behind the original page on your site."
     },
@@ -32,9 +32,9 @@
       "text": "You can accept changes to your site by forking the remote page back to your site."
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "450047a07765e151",
-      "text": "<i> Caution: Dragging content from a remote page would constitute an edit leading to an implicit fork of the page back to your site. Implicit forking is inhibited when dragging between pages of the same name so it is save in this circumstance."
+      "text": "<i> Caution: Dragging content from a remote page would constitute an edit leading to an implicit fork of the page back to your site. Implicit forking is inhibited when dragging between pages of the same name so it is save in this circumstance.</i>"
     },
     {
       "type": "paragraph",
@@ -42,9 +42,9 @@
       "text": "Submissions appear as Reference plugins. You can drag these to other pages such as a ToDo list. You can also edit the text within a reference to make it more useful for yourself."
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "9785078858fd388e",
-      "text": "<h3> Submission History"
+      "text": "<h3>Submission History</h3>"
     },
     {
       "type": "paragraph",
@@ -335,6 +335,97 @@
         "text": "If you have many or complex submissions, you can view all submissions merged with your changes. See [[About Activity Plugin]]."
       },
       "date": 1354091186851
+    },
+    {
+      "type": "edit",
+      "id": "73f990123175971b",
+      "item": {
+        "type": "html",
+        "id": "73f990123175971b",
+        "text": "<i>Notice: This capability is only available for sites that choose to accept changes."
+      },
+      "date": 1418314051490
+    },
+    {
+      "type": "edit",
+      "id": "73f990123175971b",
+      "item": {
+        "type": "html",
+        "id": "73f990123175971b",
+        "text": "<i>Notice: This capability is only available for sites that choose to accept changes.</i>"
+      },
+      "date": 1418314057840
+    },
+    {
+      "type": "edit",
+      "id": "a9e3f1906db6feb1",
+      "item": {
+        "type": "html",
+        "id": "a9e3f1906db6feb1",
+        "text": "Submissions appear in a separate, made for purpose, site. You can browse the recent changes of this site by clicking on the <b>flag</b> of sites listed below, if any."
+      },
+      "date": 1418314061408
+    },
+    {
+      "type": "edit",
+      "id": "07f5bde2ec9ac99e",
+      "item": {
+        "type": "html",
+        "id": "07f5bde2ec9ac99e",
+        "text": "When viewing recent changes of a remote site, you can view the changed page on that site by clicking on the <b>flag</b> of that page. Don't expect the link to find the remote site because it will likely be hidden behind the original page on your site."
+      },
+      "date": 1418314063400
+    },
+    {
+      "type": "edit",
+      "id": "450047a07765e151",
+      "item": {
+        "type": "html",
+        "id": "450047a07765e151",
+        "text": "<i> Caution: Dragging content from a remote page would constitute an edit leading to an implicit fork of the page back to your site. Implicit forking is inhibited when dragging between pages of the same name so it is save in this circumstance."
+      },
+      "date": 1418314066690
+    },
+    {
+      "type": "edit",
+      "id": "450047a07765e151",
+      "item": {
+        "type": "html",
+        "id": "450047a07765e151",
+        "text": "<i> Caution: Dragging content from a remote page would constitute an edit leading to an implicit fork of the page back to your site. Implicit forking is inhibited when dragging between pages of the same name so it is save in this circumstance.</i>"
+      },
+      "date": 1418314072495
+    },
+    {
+      "type": "edit",
+      "id": "9785078858fd388e",
+      "item": {
+        "type": "paragraph",
+        "id": "9785078858fd388e",
+        "text": "<h3>Submission History</h3>"
+      },
+      "date": 1418314081590
+    },
+    {
+      "type": "edit",
+      "id": "9785078858fd388e",
+      "item": {
+        "type": "html",
+        "id": "9785078858fd388e",
+        "text": "<h3>Submission History</h3>"
+      },
+      "date": 1418314084360
+    },
+    {
+      "type": "edit",
+      "id": "9785078858fd388e",
+      "item": {
+        "type": "html",
+        "id": "9785078858fd388e",
+        "text": "<h3>Submission History</h3>"
+      },
+      "date": 1418314084362
     }
-  ]
+  ],
+  "plugin": "changes"
 }
