@@ -1,3 +1,10 @@
+###
+ * Federated Wiki : Changes Plugin
+ *
+ * Licensed under the MIT license.
+ * https://github.com/fedwiki/wiki-plugin-changes/blob/master/LICENSE.txt
+###
+
 listItemHtml = (slug, page)->
   """
     <li><a class="internal" href="#" title="local" data-page-name="#{slug}" data-site="local">#{page.title}</a> <button class="delete">✕</button></li>
