@@ -1,0 +1,6 @@
+Authors ordered by first contribution
+
+Pete Hodgson <git@thepete.net>
+Ward Cunningham <ward@c2.com>
+Nick Niemeir <nick.niemeir@gmail.com>
+Paul Rodwell <paul.rodwell@btinternet.com>
