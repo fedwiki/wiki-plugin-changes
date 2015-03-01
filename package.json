@@ -1,6 +1,6 @@
 {
   "name": "wiki-plugin-changes",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Federated Wiki - Changes Plug-in",
   "keywords": [
     "wiki",
@@ -31,7 +31,7 @@
     "grunt": "~0.4",
     "grunt-contrib-coffee": "~0.12",
     "grunt-contrib-watch": "~0.6",
-    "grunt-git-authors": "~2"    
+    "grunt-git-authors": "~2"
   },
   "licenses": [
     {
