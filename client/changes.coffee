@@ -34,7 +34,7 @@ constructor = ($, dependencies={})->
 
   emit = ($div, item) ->
     if( localStorage.length == 0 )
-      $div.append( '<ul><p>empty</p></ul>' )
+      $div.append( '<ul><p><i>no local changes</i></p></ul>' )
       return
 
     $div.append( ul = $('<ul />') )
