@@ -5,9 +5,20 @@
  * https://github.com/fedwiki/wiki-plugin-changes/blob/master/LICENSE.txt
 ###
 
+escape = (line) ->
+  line
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+
 listItemHtml = (slug, page)->
   """
-    <li><a class="internal" href="#" title="local" data-page-name="#{slug}" data-site="local">#{page.title}</a> <button class="delete">✕</button></li>
+    <li>
+      <a class="internal" href="#" title="local" data-page-name="#{slug}" data-site="local">
+        #{escape page.title}
+      </a>
+      <button class="delete">✕</button>
+    </li>
   """
 
 pageBundle = ->
@@ -23,7 +34,7 @@ constructor = ($, dependencies={})->
 
   emit = ($div, item) ->
     if( localStorage.length == 0 )
-      $div.append( '<ul><p>empty</p></ul>' )
+      $div.append( '<ul><p><i>no local changes</i></p></ul>' )
       return
 
     $div.append( ul = $('<ul />') )
