@@ -42,7 +42,15 @@ constructor = ($, dependencies={})->
       slug = localStorage.key(i)
       page = JSON.parse(localStorage.getItem(slug))
       ul.append listItemHtml(slug,page)
-    ul.append """<button class="submit">Submit Changes</button>""" if item.submit?
+    if localStorage.length > 0
+      if item.submit?
+        ul.append """<button class="submit">Submit Changes</button>"""
+      else
+        $div.append """
+          <p> Click <i>Export Changes</i> to retrieve changed pages as json.
+          Save the json as a file to be drop-imported elsewhere.</p>
+          <ul><button class="export">Export Changes</button></ul>
+        """
 
   bind = ($div, item) ->
     $div.on 'click', '.delete', ->
@@ -70,6 +78,8 @@ constructor = ($, dependencies={})->
         error: (xhr, type, msg) ->
           wiki.log "ajax error callback", type, msg
 
+    $div.on 'click', '.export', ->
+      location.href = "data:application/json," + encodeURIComponent(JSON.stringify(pageBundle()));
 
     $div.dblclick ->
       bundle = pageBundle()
