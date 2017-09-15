@@ -47,8 +47,8 @@ constructor = ($, dependencies={})->
         ul.append """<button class="submit">Submit Changes</button>"""
       else
         $div.append """
-          <p> Click <i>Export Changes</i> to retrieve changed pages as json.
-          Save the json as a file to be drop-imported elsewhere.</p>
+          <p> Click <i>Export Changes</i> to download changed pages as <i>#{location.hostname}.json</i>.
+          Drag-and-drop this file to import pages elsewhere.</p>
           <ul><button class="export">Export Changes</button></ul>
         """
 
@@ -79,7 +79,12 @@ constructor = ($, dependencies={})->
           wiki.log "ajax error callback", type, msg
 
     $div.on 'click', '.export', ->
-      location.href = "data:application/json," + encodeURIComponent(JSON.stringify(pageBundle()));
+      anchor = document.createElement('a')
+      document.body.appendChild(anchor)
+      anchor.setAttribute('href', 'data:text/json;charset=utf-8,' + encodeURIComponent(JSON.stringify(pageBundle())))
+      anchor.setAttribute('download', location.hostname + '.json')
+      anchor.click()
+      document.body.removeChild(anchor)
 
     $div.dblclick ->
       bundle = pageBundle()
