@@ -1,6 +1,6 @@
 {
   "name": "wiki-plugin-changes",
-  "version": "1.0.0",
+  "version": "0.2.4",
   "description": "Federated Wiki - Changes Plug-in",
   "keywords": [
     "wiki",
@@ -42,6 +42,6 @@
     "url": "https://github.com/fedwiki/wiki-plugin-changes/issues"
   },
   "engines": {
-    "node": ">=0.10"
+    "node": ">=4.0"
   }
 }
