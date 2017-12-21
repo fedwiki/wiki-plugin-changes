@@ -11,11 +11,11 @@ escape = (line) ->
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
 
-listItemHtml = (slug, page)->
+listItemHtml = (slug, title)->
   """
     <li>
       <a class="internal" href="#" title="local" data-page-name="#{slug}" data-site="local">
-        #{escape page.title}
+        #{escape title}
       </a>
       <button class="delete">✕</button>
     </li>
@@ -41,7 +41,8 @@ constructor = ($, dependencies={})->
     for i in [0...localStorage.length]
       slug = localStorage.key(i)
       page = JSON.parse(localStorage.getItem(slug))
-      ul.append listItemHtml(slug,page)
+      if page.title?
+        ul.append listItemHtml(slug,page.title)
     if localStorage.length > 0
       if item.submit?
         ul.append """<button class="submit">Submit Changes</button>"""
