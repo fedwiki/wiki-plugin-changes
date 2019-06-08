@@ -18,7 +18,7 @@ module.exports = function (grunt) {
       client: {
         expand: true,
         options: {
-          transpile: [],
+          transpile: { presets: ['@babel/preset-env'] },
           sourceMap: true
         },
         src: ['client/*.coffee', 'test/*.coffee'],
