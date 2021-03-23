@@ -14,9 +14,7 @@ escape = (line) ->
 listItemHtml = (slug, title)->
   """
     <li>
-      <a class="internal" href="#" title="local" data-page-name="#{slug}" data-site="local">
-        #{escape title}
-      </a>
+      <a class="internal" href="#" title="local" data-page-name="#{slug}" data-site="local">#{escape title}</a>
       <button class="delete">✕</button>
     </li>
   """
