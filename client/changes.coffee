@@ -21,29 +21,34 @@ listItemHtml = (slug, title)->
     </li>
   """
 
-pageBundle = ->
-  bundle = {}
-  length = localStorage.length
-  for i in [0...length]
-    slug = localStorage.key i
-    bundle[slug] = JSON.parse localStorage.getItem slug
-  bundle
 
 constructor = ($, dependencies={})->
   localStorage = dependencies.localStorage || window.localStorage
 
+  pageBundle = ->
+    bundle = {}
+    length = localStorage.length
+    for i in [0...length]
+      slug = localStorage.key i
+      if slug.match /^[a-z-]+$/
+        try
+          page = JSON.parse localStorage.getItem slug
+          if page.title?
+            bundle[slug] = page
+    bundle
+
   emit = ($div, item) ->
-    if( localStorage.length == 0 )
+    bundle = pageBundle()
+    bundled = Object.keys(bundle).length > 0
+    if bundled
       $div.append( '<ul><p><i>no local changes</i></p></ul>' )
       return
 
     $div.append( ul = $('<ul />') )
-    for i in [0...localStorage.length]
-      slug = localStorage.key(i)
-      page = JSON.parse(localStorage.getItem(slug))
-      if page.title?
-        ul.append listItemHtml(slug,page.title)
-    if localStorage.length > 0
+    for slug of bundle
+      ul.append listItemHtml(slug,bundle[slug].title)
+
+    if bundled
       if item.submit?
         ul.append """<button class="submit">Submit Changes</button>"""
       else
