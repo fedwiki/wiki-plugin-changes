@@ -85,7 +85,7 @@ constructor = ($, dependencies={})->
       anchor.click()
       document.body.removeChild(anchor)
 
-    $div.dblclick ->
+    $div.on 'dblclick', () ->
       bundle = pageBundle()
       count = _.size(bundle)
       wiki.dialog "JSON bundle for #{count} pages",  $('<pre/>').text(JSON.stringify(bundle, null, 2))
